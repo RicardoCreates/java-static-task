@@ -18,5 +18,8 @@ public class Main {
 
         System.out.println("Total Count: " + Counter.getTotalCount());
 
+        int sum = Calculator.add(12, 15);
+        System.out.println("Sum: " + sum);
+
     }
 }
