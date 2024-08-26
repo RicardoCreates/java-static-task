@@ -21,5 +21,14 @@ public class Main {
         int sum = Calculator.add(12, 15);
         System.out.println("Sum: " + sum);
 
+        int sum2 = Calculator.subtract(12, 15);
+        System.out.println("Sum2: " + sum2);
+
+        int sum3 = Calculator.multiply(12, 15);
+        System.out.println("Sum3: " + sum3);
+
+        double sum4 = Calculator.divide(12, 15);
+        System.out.println("Sum4: " + sum4);
+
     }
 }
